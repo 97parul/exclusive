@@ -4,7 +4,7 @@
   "version": "1.0.1",
   "homepage": "http://creative-tim.com/product/blk-design-system",
   "author": "Creative Tim",
-  "license": "Creative Tim License <www.creative-tim.com/license>",
+  "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.1",
     "gulp-autoprefixer": "^4.1.0",
@@ -13,5 +13,21 @@
     "gulp-sass": "^3.1.0",
     "gulp-sourcemaps": "^2.6.3",
     "gulp-open": "^2.1.0"
+  },
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/97parul/exclusive.git"
+  },
+  "bugs": {
+    "url": "https://github.com/97parul/exclusive/issues"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.6"
   }
 }
